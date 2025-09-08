@@ -24,7 +24,7 @@ class Envee < Formula
   end
 
   def install
-    bin.install "envee"
+    bin.install "envee-darwin-amd64" => "envee"
   end
 
   test do
