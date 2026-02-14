@@ -6,20 +6,20 @@ class Envee < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jackjakarta/envee/releases/download/0.1.4/envee-darwin-arm64.tar.gz"
-      sha256 "a68fdc766603b507a75a2e3418f2513d258befa9df2efd2f10e2e56a06c8156e"
+      sha256 "73e0c3f7603d7e73a6936fa8884c78c3e42ec8f30a72a4774d3d36530fb8b6d6"
     else
       url "https://github.com/jackjakarta/envee/releases/download/0.1.4/envee-darwin-amd64.tar.gz"
-      sha256 "f23f5705a6163656739d786811940e9a4b77d6685aa478c3039e8df23e6d9d69"
+      sha256 "b3a129ae6a5397b12748212f204c874bbb200e3432750f4001d7c9b87479dfe6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/jackjakarta/envee/releases/download/0.1.4/envee-linux-arm64.tar.gz"
-      sha256 "3c6f2c9ef3e423d7fb61730b7008acc4b4f4870eec680f7cea0f179247811d51"
+      sha256 "3afeee2c1c9f00075287ea122ed64ef8a842bed507b6ba90fd2d8342b71df493"
     else
       url "https://github.com/jackjakarta/envee/releases/download/0.1.4/envee-linux-amd64.tar.gz"
-      sha256 "2d175b7540eb641a9ae3c8d5a0a29547c7723080be667fea7596f89b1f4372c2"
+      sha256 "5d2806bc612c29dbc56cde10a421e6fa66a86a84017c6ef410ab9996cf265db9"
     end
   end
 
