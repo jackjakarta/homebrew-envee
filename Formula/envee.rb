@@ -1,25 +1,25 @@
 class Envee < Formula
   desc "Run processes with env vars injected from a file"
   homepage "https://github.com/jackjakarta/envee"
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jackjakarta/envee/releases/download/0.1.3/envee-darwin-arm64.tar.gz"
-      sha256 "799402070c1ae54573bcf5e56abe9a1923510afbd3fd088ca26d8cef8531dc97"
+      url "https://github.com/jackjakarta/envee/releases/download/0.1.4/envee-darwin-arm64.tar.gz"
+      sha256 "a68fdc766603b507a75a2e3418f2513d258befa9df2efd2f10e2e56a06c8156e"
     else
-      url "https://github.com/jackjakarta/envee/releases/download/0.1.3/envee-darwin-amd64.tar.gz"
-      sha256 "8fa502ecba4b89dabce6f2c290f5ddffeefe374d8a75d5ee2ed55afeef14a498"
+      url "https://github.com/jackjakarta/envee/releases/download/0.1.4/envee-darwin-amd64.tar.gz"
+      sha256 "f23f5705a6163656739d786811940e9a4b77d6685aa478c3039e8df23e6d9d69"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/jackjakarta/envee/releases/download/0.1.3/envee-linux-arm64.tar.gz"
-      sha256 "0643dbb4f24fe604bb1e1841322a07750deaa5cade3fcc447c8e21a9bd7ce44b"
+      url "https://github.com/jackjakarta/envee/releases/download/0.1.4/envee-linux-arm64.tar.gz"
+      sha256 "3c6f2c9ef3e423d7fb61730b7008acc4b4f4870eec680f7cea0f179247811d51"
     else
-      url "https://github.com/jackjakarta/envee/releases/download/0.1.3/envee-linux-amd64.tar.gz"
-      sha256 "496d3acadd1422d1c6f7e8f25c163cdcedc1d998a2ced5fe861f4078259f02bf"
+      url "https://github.com/jackjakarta/envee/releases/download/0.1.4/envee-linux-amd64.tar.gz"
+      sha256 "2d175b7540eb641a9ae3c8d5a0a29547c7723080be667fea7596f89b1f4372c2"
     end
   end
 
